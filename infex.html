@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Interactivo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ejercicios JavaScript</h1>
+        </header>
+        <main>
+            <section id="exercise1" class="exercise">
+                <h2>1. Verificar Conducción</h2>
+                <input type="number" id="edad" placeholder="Ingrese su edad">
+                <button onclick="checkAge()">Verificar</button>
+                <p id="result1"></p>
+            </section>
+
+            <section id="exercise2" class="exercise">
+                <h2>2. Calificación de Nota</h2>
+                <input type="number" id="grade" placeholder="Ingrese la nota (0-10)">
+                <button onclick="gradeScale()">Calificar</button>
+                <p id="result2"></p>
+            </section>
+
+            <section id="exercise3" class="exercise">
+                <h2>3. Concatenar Textos</h2>
+                <button onclick="concatStrings()">Iniciar</button>
+                <p id="result3"></p>
+            </section>
+
+            <section id="exercise4" class="exercise">
+                <h2>4. Calcular Letra del DNI</h2>
+                <input type="number" id="dni" placeholder="Ingrese el número de DNI">
+                <button onclick="calculateDNILetter()">Calcular</button>
+                <p id="result4"></p>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
